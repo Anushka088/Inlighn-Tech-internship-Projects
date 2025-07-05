@@ -1,0 +1,59 @@
+Amazon Sales Dashboard Creation in Excel
+
+Objective: 
+Build a dynamic, interactive dashboard similar to the example provided, showcasing Amazon sales data across various cities, states, and product categories.
+
+Instructions: 
+
+1. Prepare the Dataset:
+  • Data Requirements: Collect or prepare a dataset with the following columns:
+      o Sales Amount (₹): Total sales in currency format.
+      o Units Sold: Number of units sold.
+      o City: City where the sales were recorded.
+      o State: State where the city is located.
+      o Product Category: Category or product type.
+      o Date of Sale: Optional, but useful for creating time-based trends.
+  • Data Preparation:
+      o Ensure each column has a consistent data type.
+      o Format currency data in Indian Rupees (₹).
+      o Use filters to remove any null or incorrect data entries.
+
+2. Layout and Structure:
+  • Dashboard Title: Place the title ("Amazon Sales Dashboard 2024") prominently at the top.
+  • Key Metrics Summary:
+      o Create summary cards for Sales, Units Sold, and # of Cities.
+      o Use large, bold fonts to display values.
+      o Use percentage-based doughnut charts to represent KPIs (e.g., sales progress, units sold target).
+
+3. Graphs and Visuals:
+  • Sales Summary Card (Doughnut Chart):
+      o Select doughnut charts for key metrics.
+      o Represent completion percentage (e.g., 81% for Sales, 92% for Units).
+      o Use different colors to distinguish actual vs. target percentages.
+  • City-wise Sales (Line Chart):
+      o Use a Line Chart to display city-wise sales.
+      o Place City Names on the X-axis and Sales Amount on the Y-axis.
+      o Highlight peak sales cities for emphasis.
+  • State-wise Sales (Map Chart):
+      o Use the Map Chart feature in Excel to create a state-wise sales map.
+      o Ensure each state name matches Excel’s map requirements for accurate mapping.
+      o Choose gradient colors to represent varying sales values across states.
+  • Product-wise Units (Bar Chart):
+      o Create a Funnel or Horizontal Bar Chart showing units sold by product category.
+      o Arrange product categories in descending order to highlight top-performing products.
+      o Place product names on the Y-axis and units sold on the X-axis.
+
+4. Adding Icons and Buttons:
+  • Include icons in the dashboard’s sidebar for added visual appeal (e.g., data icon, sales icon).
+  • Use Excel's Insert > Icons feature to add relevant icons and align them with each metric.
+
+5. Styling and Formatting:
+  • Colors: Use a cohesive color theme with neutral backgrounds and accent colors for charts.
+  • Borders and Shadows: Apply rounded borders and subtle shadows to each chart or card for a professional look.
+  • Fonts: Use bold, readable fonts for titles and data labels.
+  • Conditional Formatting: Use it for emphasizing high or low values, especially in tables or map charts.
+
+6. Final Review and Interactivity:
+  • Slicers and Filters: Add slicers for Product Category and State to allow quick filtering.
+  • Test Functionality: Ensure all charts update dynamically when filters are applied.
+  • Data Validation: Verify data accuracy in each chart.
